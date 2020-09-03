@@ -18,8 +18,8 @@ function Filter() {
         </div>
         <div className={style.ranges}>
           <input className={style.readyDisplay} type="range"/>
-          <input className={style.readyFrom} type="range" min={0} max={99} value={0}/>
-          <input className={style.readyTo} type="range" min={1} max={100} value={100}/>
+          <input className={style.readyFrom} type="range" min={0} max={99}/>
+          <input className={style.readyTo} type="range" min={1} max={100}/>
         </div>
       </div>
       <div className={style.buttons}>
