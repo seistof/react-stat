@@ -1,0 +1,100 @@
+.filter {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    padding: .125rem;
+    margin: 0;
+    width: 4rem;
+}
+
+.ready {
+    width: 10rem;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.readyInfo {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.readyInfo > input {
+    width: 25px;
+    text-align: center;
+}
+
+.readyInfo > input::-webkit-outer-spin-button,
+.readyInfo > input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.ranges {
+    padding: 1rem 0 .5rem 0;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ranges > input {
+    width: 10rem;
+}
+
+.readyFrom {
+    visibility: hidden;
+    margin-right: 5px;
+}
+
+.readyTo {
+    visibility: hidden;
+    margin-left: 5px;
+}
+
+.readyDisplay {
+    visibility: hidden;
+}
+
+.readyDisplay::-webkit-slider-runnable-track {
+    margin: 0;
+    visibility: visible;
+    height: 5px;
+    background: #ffffff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.readyTo::-webkit-slider-thumb {
+    cursor: pointer;
+    margin-top: -20px;
+    visibility: visible;
+}
+
+.readyFrom::-webkit-slider-thumb {
+    cursor: pointer;
+    margin-top: -15px;
+    visibility: visible;
+}
+
+.readyDisplay::-webkit-slider-thumb {
+    display: none;
+}

@@ -1,0 +1,9 @@
+.display {
+    width: calc(100% - 170px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #3264c8;
+}
